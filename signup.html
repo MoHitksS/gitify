@@ -7,28 +7,28 @@
     <title>signup</title>
     <Style>
         #container{
+            display: grid;
             background-color: rgb(72, 201, 176);
-            padding: 4%;
-            width: 27%;
-            height: auto;
+            padding-bottom: 40px;
+            width: 480px;
+            height: 530px;
             margin: auto;
-            margin-bottom: 9%;
             text-align: center;
-            margin-top: 6%;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         }
         input{
-            width: 90%;
+            width: 310px;
             padding: 15px;
             font-size: 18px;
             
-            margin: 10px;
+            display: block;
         }
         button{
-            width: 98%;
+            width: 340px;
             padding: 15px;
             font-size: 18px;
-            margin: 3%;
             display: block;
             margin-top: 3%;
             background-color: rgb(23, 165, 137);
@@ -52,8 +52,10 @@
             <input type="text" placeholder="Full name">
             <input type="email" placeholder="Email">
             <input type="text" placeholder="Organization">
-            <button>signup</button>
-            <button>return</button>
+            <div>
+                <button>signup</button>
+                <button>return</button>
+            </div>
         </div>
     </form>
 </body>
